@@ -1,0 +1,314 @@
+/* .home .home-content a:hover{
+    color: #2c3e50;
+    background: none;
+} 
+
+pilice utilise  font-family: "Merriweather", serif;
+
+
+
+.navbar .menu li a:hover{
+    color: #177bdf;
+}
+.navbar.sticky .menu li a:hover{
+    color: rgb(224, 166, 7);
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#bgnav{
+    background: #003c5a;
+}
+header{
+    background: rgb(27, 14, 41);
+    width: 100%;
+    height: 85px;
+    
+}
+
+/* logoo */
+#left{
+    color: white;
+    margin-top: 1px;
+    padding-top: 35px;
+    margin-left: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav-link{
+    margin-top: -40px;
+}
+#num{
+ float: right;
+ margin-right: 60px;
+ margin-top: -35px;
+    
+   
+}
+#num a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul{
+    list-style: none;
+    
+    margin: 0;
+    padding: 0px;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+}
+span{
+    color: white;
+    font-size: 15px;
+ 
+}
+#readmore{
+    background: #fc8f44;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px;
+}
+h2{
+    margin-left: -160px;
+}
+
+#univers{
+    color: black;
+}
+.inset-2{
+    margin-top: 40px;
+}
+
+
+ul li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+}
+ li {
+    display: inline-block;
+  
+    padding-left: 60px;
+      }
+ul li a{
+          color: white;
+          text-decoration: none;
+          list-style: none;
+        
+      }
+#ban{
+  background:url(bgbannier.png);
+  background-size: 1400px ;
+  height: 900px;
+  background-repeat: no-repeat;
+ 
+}
+h1{
+    color: white;
+    font-size: 20px;
+}
+h5{
+    color: #66b8e0;
+}
+#icon{
+    color: #fc8f44;
+}
+
+/* les hover */
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(235, 174, 8);
+  } 
+
+  
+/* section de la gallery du deuxieme css  */
+
+#titregallery{
+    margin-left: 100px;
+}
+#ligne{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    font-size: 20px;
+}
+#flow:hover{
+  -ms-transform-origin-y: 2.2;         
+}
+#btns{
+    margin-left: 40px;
+    width: 100px;
+}
+span{
+    border-style: solid;
+    background: transparent;
+    padding: 0;
+    width: 100px;
+    height: 1;
+}
+.info-block .img-overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300%;
+    height:324px;
+    background: rgba(0, 0, 0, 0.6);
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+#image{
+    overflow: hidden;
+    cursor: pointer;
+}
+.info-block .img-overlay .img-overlay_cnt h4 {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.45;
+    margin-top: -200px;
+}
+
+/* avant derrier  dv,dk */
+.thumb {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+ /* incompris a etudier a la maison. */
+.thumb__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    text-align: center;
+    transition: .3s all ease;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+a, a[href^="tel:"], a[href^="callto:"] {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+.bg-primary-darken {
+    background: #e76e33;
+    color: #fff;
+}
+
+.thumb__overlay:before {
+    font-size: 30px;
+    color: #edf4f8;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+[class*='fa-']:before {
+    font-weight: 400;
+    font-family: 'FontAwesome';
+}
+.fa-search:before {
+    content: "\f002";
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* footerrr */
+
+footer {
+    padding: 50px 0px 20px;
+}
+footer ul {
+    padding: 0px;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a {
+    padding: 3px 0px;
+    display: block;
+}
+footer a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FFEB3B;
+    text-decoration: none;
+}
+footer p {
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    padding: 8px 6px;
+}
+footer h3 {
+    font-size: 20px;
+    color: #FFEB3B;
+}
+.follow-us a {
+    padding: 8px 6px;
+    display: inline-block;
+}
+#textfoot{
+    font-size: 12px;
+}
